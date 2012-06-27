@@ -11,7 +11,7 @@
 	- mensajes de commit
 	- HEAD y otras referencias, revisions y paths
 		Commit num, file name, HEAD, tag name, head name
-		SHA1, SHA1 substring
+		SHA1, SHA1 substring, :/Cadena
 		SPECIFYING REVISIONS in "man git-rev-parse"
 
 - Haciendo los commits bien
