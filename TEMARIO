@@ -1,0 +1,28 @@
+- Intro
+	- Qué es un SCV
+	- Qué es un SCV distribuido | diferencias con SVN o CSV | parecidos (Mercurial)
+	- Historia de GIT
+
+- Quick Start
+	- Primer repo, primer commit
+	- add/commit y status/log
+	- HEAD y otras referencias
+
+- Rescribiendo la historia
+	- revert
+	- rebase
+
+- Trabajando en paralelo
+	- branches
+	- remotes
+	- resolución de conflictos
+	- merge VS rebase
+
+- Configuracion de git
+	.gitconfig
+	HOOKS
+
+- Subproyectos
+
+- Integración con otras herramientas
+
