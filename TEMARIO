@@ -1,28 +1,71 @@
 - Intro
 	- Qué es un SCV
 	- Qué es un SCV distribuido | diferencias con SVN o CSV | parecidos (Mercurial)
-	- Historia de GIT
+	- Historia de GIT: C, kernel linux
+	- Instalación: sudo apt-get install git-core
+	- CheatSheets y Libros recomendados
 
 - Quick Start
-	- Primer repo, primer commit
-	- add/commit y status/log
-	- HEAD y otras referencias
+	- Primer repo (init), primer commit
+	- add/commit y status/log/show
+	- mensajes de commit
+	- HEAD y otras referencias, revisions y paths
+		Commit num, file name, HEAD, tag name, head name
+		SHA1, SHA1 substring
+		SPECIFYING REVISIONS in "man git-rev-parse"
+
+- Haciendo los commits bien
+	- add -p
+	- diff
+	- blame | git log -Sstring
+	- rm, mv
+	- .gitignore
+	- git bisect
 
 - Rescribiendo la historia
+	- amend
+	- checkout
+	- reset
+	- stash
+	- git clean -n | git clean -f
 	- revert
 	- rebase
 
 - Trabajando en paralelo
-	- branches
-	- remotes
+	- branches (git checkout -b mybranch master~1)
+	- tags
+	- patches
+	- remotes: 
+		remote -v
+		push/pull
+		clones
+		repos bare
+		push branch, push tag
 	- resolución de conflictos
-	- merge VS rebase
+	- merge VS rebase VS cherry-pick
+
+- Utilidades
+	- GitK y GitG | git log --graph
+	- git gui
+	- Eclipse EGit
 
 - Configuracion de git
+	alias
 	.gitconfig
+		editor
+		coloreado comandos
+		formato salida comandos
 	HOOKS
 
 - Subproyectos
 
 - Integración con otras herramientas
 
+
+[1] http://git.or.cz/course/svn.html
+[2] http://www.vogella.com/articles/Git/article.html
+[3] http://git-scm.com/book
+[4] http://cheat.errtheblog.com/s/git/
+[5] http://www.git-tower.com/files/cheatsheet/Git_Cheat_Sheet_grey.pdf
+[6] http://enabling-tech.com/wp-content/uploads/2010/12/gitcheat_thumb.png
+[7] https://iis.uibk.ac.at/_media/collab/git_revisions_without_branches.png?w=400
