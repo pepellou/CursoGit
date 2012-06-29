@@ -1,28 +1,33 @@
-- Intro
-	- Qué es un SCV
-	- Qué es un SCV distribuido | diferencias con SVN o CSV | parecidos (Mercurial)
-	- Historia de GIT: C, kernel linux
+- Introducción [30 min]
+	- Qué es un SCV y qué un SCV distribuido
+	- Historia de GIT: C, kernel linux, contexto (SVN, Mercurial, ...)
+	- Anatomía de un SCV distribuido | diferencias/parecidos con centralizados
 	- Instalación: sudo apt-get install git-core
 	- CheatSheets y Libros recomendados
 
-- Quick Start
+- Quick Start [30 min]
 	- Primer repo (init), primer commit
+	- Configuración inicial: email y name
 	- add/commit y status/log/show
-	- mensajes de commit
-	- HEAD y otras referencias, revisions y paths
-		Commit num, file name, HEAD, tag name, head name
-		SHA1, SHA1 substring, :/Cadena
-		SPECIFYING REVISIONS in "man git-rev-parse"
+	- Mensajes de commit
+	- Anatomía de un repositorio git: staging area, index and cache
 
-- Haciendo los commits bien
-	- add -p
-	- diff
-	- blame | git log -Sstring
-	- rm, mv
+- Aprendiendo a referenciar revisiones y paths [30 min]
+	- Anatomía de comandos típicos, referencias VS paths
+	- HEAD, master, HEAD~1 y otras referencias útiles
+	- Números de commit: SHA1, subcadena de SHA1
+	- Nombres de tags, de heads y de branches
+	- Referencias por mensaje de commit (:/cadena)
+	- Para saber más: SPECIFYING REVISIONS en "man git-rev-parse"
+
+- Herramientas para preparar un buen commit en cualquier situación [30 min]
+	- git add -p
+	- git rm, git mv
+	- git diff
+	- git blame | git log -Sstring
 	- .gitignore
-	- git bisect
 
-- Rescribiendo la historia
+- Rescribiendo la historia [45 min]
 	- amend
 	- checkout
 	- reset
@@ -30,11 +35,16 @@
 	- git clean -n | git clean -f
 	- revert
 	- rebase
+	- git bisect
 
-- Trabajando en paralelo
-	- branches (git checkout -b mybranch master~1)
+- Trabajando en paralelo [1 h]
+	- branches
+		crear, borrar, intercambiar
+		crear desde ref (git checkout -b mybranch master~1)
 	- tags
+		crear, usar
 	- patches
+		crear, aplicar
 	- remotes: 
 		remote -v
 		push/pull
@@ -44,22 +54,41 @@
 	- resolución de conflictos
 	- merge VS rebase VS cherry-pick
 
-- Utilidades
-	- GitK y GitG | git log --graph
-	- git gui
+- Utilidades [15 min]
+	- GitK, GitG y git gui | git log --graph | formato git log
 	- Eclipse EGit
 
-- Configuracion de git
-	alias
-	.gitconfig
-		editor
-		coloreado comandos
-		formato salida comandos
-	HOOKS
+- Configuracion de git [30 min]
+	- alias
+	- .gitconfig
+		- editor
+		- coloreado comandos
+		- formato salida comandos
+		- otras opciones
+	- HOOKS
+		- cómo crear
+		- hooks de lado cliente: commits, emails, rebase, ...
+		- hooks de lado servidor: pre-receive, post-receive, update
 
-- Subproyectos
+- Subproyectos [30 min]
+	- crear submodules
+	- workflow de commits
+	- git submodule status --recursive
+	- git submodule foreach ...
 
-- Integración con otras herramientas
+- Integración con otras herramientas [30 min]
+	- Subversion: git-svn
+	- Jenkins, beanstalk
+	- Github, Bitbucket
+
+- Buenas prácticas [30 min]
+	- Commits atómicos
+	- Commits frecuentes
+	- No commits de trabajo a medias
+	- Test antes de commit
+	- Buenos mensajes de commit
+	- Usar branches, feature-branching
+	- Fijar un workflow común
 
 
 [1] http://git.or.cz/course/svn.html
