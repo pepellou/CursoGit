@@ -19,10 +19,12 @@
 	- Nombres de tags, de heads y de branches
 	- Referencias por mensaje de commit (:/cadena)
 	- Para saber más: SPECIFYING REVISIONS en "man git-rev-parse"
+	- --author
 
 - Herramientas para preparar un buen commit en cualquier situación [30 min]
 	- git add -p
 	- git rm, git mv
+	- git reset path
 	- git diff
 	- git blame | git log -Sstring
 	- .gitignore
