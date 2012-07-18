@@ -97,10 +97,10 @@ crear desde ref (git checkout -b mybranch master~1)
 
 References:
 
-> [1] [http://git.or.cz/course/svn.html](http://git.or.cz/course/svn.html)
-> [2] [http://www.vogella.com/articles/Git/article.html](http://www.vogella.com/articles/Git/article.html)
-> [3] [http://git-scm.com/book](http://git-scm.com/book)
-> [4] [http://cheat.errtheblog.com/s/git/](http://cheat.errtheblog.com/s/git/)
-> [5] [http://www.git-tower.com/files/cheatsheet/Git_Cheat_Sheet_grey.pdf](http://www.git-tower.com/files/cheatsheet/Git_Cheat_Sheet_grey.pdf)
-> [6] [http://enabling-tech.com/wp-content/uploads/2010/12/gitcheat_thumb.png](http://enabling-tech.com/wp-content/uploads/2010/12/gitcheat_thumb.png)
-> [7] [https://iis.uibk.ac.at/_media/collab/git_revisions_without_branches.png?w=400](https://iis.uibk.ac.at/_media/collab/git_revisions_without_branches.png?w=400)
+> [1] [http://git.or.cz/course/svn.html](http://git.or.cz/course/svn.html)  
+> [2] [http://www.vogella.com/articles/Git/article.html](http://www.vogella.com/articles/Git/article.html)  
+> [3] [http://git-scm.com/book](http://git-scm.com/book)  
+> [4] [http://cheat.errtheblog.com/s/git/](http://cheat.errtheblog.com/s/git/)  
+> [5] [http://www.git-tower.com/files/cheatsheet/Git_Cheat_Sheet_grey.pdf](http://www.git-tower.com/files/cheatsheet/Git_Cheat_Sheet_grey.pdf)  
+> [6] [http://enabling-tech.com/wp-content/uploads/2010/12/gitcheat_thumb.png](http://enabling-tech.com/wp-content/uploads/2010/12/gitcheat_thumb.png)  
+> [7] [https://iis.uibk.ac.at/_media/collab/git_revisions_without_branches.png?w=400](https://iis.uibk.ac.at/_media/collab/git_revisions_without_branches.png?w=400)  
