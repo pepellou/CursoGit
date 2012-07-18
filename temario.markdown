@@ -1,6 +1,6 @@
 # Curso de GIT
 
-## Introducción [30 min]
+## [Introducción](https://github.com/pepellou/CursoGit/blob/master/tema1.markdown) [30 min]
 - Qué es un SCV y qué un SCV distribuido
 - Historia de GIT: C, kernel linux, contexto (SVN, Mercurial, ...)
 - Anatomía de un SCV distribuido | diferencias/parecidos con centralizados
